@@ -4,7 +4,7 @@
 # author: O. Ledvinka
 # date: 2024-02-20
 ####
-
+sadas
 # This is only the script we created during the first lesson
 # Please, read the OL1lesson.html document for completeness!
 
