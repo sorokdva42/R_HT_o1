@@ -6,7 +6,7 @@ test comm
 # lesson: Intro to R and RStudio
 # author: O. Ledvinka
 # date: 2024-02-20
-####
+####  
 
 # This is only the script we created during the first lesson
 # Please, read the OL1lesson.html document for completeness!
