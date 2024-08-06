@@ -1,4 +1,7 @@
-####
+test comm
+
+ 
+#### 
 # R and Python in Geosciences (2024)
 # lesson: Intro to R and RStudio
 # author: O. Ledvinka
@@ -27,6 +30,7 @@ xfun::pkg_attach("tidyverse",
 
 # programmatically, installing packages with their dependencies may be done as follows
 
+
 install.packages("xfun",
                  depend = T)
 
@@ -37,6 +41,7 @@ update.packages()
 # installation of packages that are not on CRAN but are e.g. on GitHub may be performed as follows
 
 remotes::install_github("yonghah/esri2sf") # of course, we need the package remotes installed
+
 
 # if we do not know the function our friend uses in his/her advanced code, we can study the help page by pressing F1 or employing the question mark operator before the function name
 
