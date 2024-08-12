@@ -13,15 +13,15 @@
 
 # loading of the most important set of packages under core tidyverse
 library(tidyverse)
-
+setwd("C:/R_scripts/R_HT_o1/materials/l2")
 # again, we load the RDS file with metadata that we saved from Classroom during previous lesson to the project subfolder
 # there is no need to respect the case of letters within the quotes defining the path to the file
-tab <- read_rds("metadata/qdmeta2023.rds")
+tab <- read_rds("qdmeta2023.rds")
 
 # we also demonstrated loading of another file, this time with discharge time series
 # this file is uploaded to the Classroom (OL2 lesson)
 # loading takes longer since this is a huge table
-qd <- read_rds("data/qddata2023_gzipped.rds")
+qd <- read_rds("QDdata2023_gzipped.rds")
 
 # what is the class of just loaded object?
 qd |>  

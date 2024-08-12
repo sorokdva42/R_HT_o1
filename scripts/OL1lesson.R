@@ -93,7 +93,6 @@ vec |>
 vec2 <- seq(from = 1,
             to = 10,
             by = 1)
-
 # class() as well as str() and dplyr::glipmse() may be used for studying such details
 
 vec2 |> 
