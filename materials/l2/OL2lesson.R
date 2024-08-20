@@ -10,13 +10,13 @@
 
 # We assume we are working withing the R project we established during our first lesson
 # Therefore, we are able to use relative paths and other advantages of using R projects
-
+rm(list =ls())
 # loading of the most important set of packages under core tidyverse
 library(tidyverse)
 setwd("C:/R_scripts/R_HT_o1/materials/l2")
 # again, we load the RDS file with metadata that we saved from Classroom during previous lesson to the project subfolder
 # there is no need to respect the case of letters within the quotes defining the path to the file
-tab <- read_rds("qdmeta2023.rds")
+  tab <- read_rds("qdmeta2023.rds")
 
 # we also demonstrated loading of another file, this time with discharge time series
 # this file is uploaded to the Classroom (OL2 lesson)

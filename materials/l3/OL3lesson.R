@@ -20,9 +20,10 @@ library(tidyverse)
 # we again load our tables
 # we can also use the following trick with the readClipbaord() function
 # but, first, we need to have the path to the file copied in our clipboard (may be done e.g. in Total Commander)
-qd <- read_rds(readClipboard())
+qd <- read_rds("QDdata2023_gzipped.rds")
 
-tab <- read_rds(readClipboard())
+tab <- read_rds("qdmeta2023.rds")
+
 
 # print the beginnings of the tables in the Console
 qd
